@@ -1,3 +1,4 @@
+package Base;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -22,7 +23,7 @@ public class BrowserTest {
 		//		driver.get("https://amazon.in/");
 		//		driver.quit();
 		//		driver.close();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
 	}
 	@Test
